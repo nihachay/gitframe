@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suite]">
+  <test thread-count="5" name="Free CRM Test(failed)">
+    <classes>
+      <class name="MyRunner.CrmProLoginRunner">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="feature"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- MyRunner.CrmProLoginRunner -->
+    </classes>
+  </test> <!-- Free CRM Test(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->
